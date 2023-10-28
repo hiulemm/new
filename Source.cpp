@@ -1,6 +1,7 @@
 #include <iostream>
 
 using namespace std;
+<<<<<<< HEAD
 int tong(int a, int b){
 	return a+b;
 }
@@ -10,17 +11,24 @@ int hieu(int a, int b){
 int tich(int a, int b){
 	return a*b;
 }
+=======
+int tong(int a, int b);
+int hieu(int a, int b);
+int tich(int a, int b);
+>>>>>>> b1af3705560b42b25e987887856949153d7c45a7
 float thuong(int a, int b);
 int main()
 {
-	int a, b;
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
-	cout<<"Nhap a: ";
-	cin>> a;
-	cout<<"Nhap b: ";
+	int a,b;
+	cout<<"Nhap so thu nhat: ";
+	cin>>a;
+	cout<<"Nhap so thu hai: ";
 	cin>>b;
-	cout<< a<<"+"<<b<<"="<<tong(a,b);
-	cout<< a<<"-"<<b<<"="<<hieu(a,b);
+	cout<<a<<" + "<<b<<" = "<<tong(a+b)<<endl;
+	cout<<a<<" - "<<b<<" = "<<hieu(a+b)<<endl;
+	cout<<a<<" * "<<b<<" = "<<tich(a+b)<<endl;
+	cout<<a<<" / "<<b<<" = "<<thuong(a+b)<<endl;
 	system("pause");
 	return 0;
 }
