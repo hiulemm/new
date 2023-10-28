@@ -1,21 +1,10 @@
 #include <iostream>
 
 using namespace std;
-<<<<<<< HEAD
-int tong(int a, int b){
-	return a+b;
-}
-int hieu(int a, int b){
-	return a-b;
-}
-int tich(int a, int b){
-	return a*b;
-}
-=======
+
 int tong(int a, int b);
 int hieu(int a, int b);
 int tich(int a, int b);
->>>>>>> b1af3705560b42b25e987887856949153d7c45a7
 float thuong(int a, int b);
 int main()
 {
