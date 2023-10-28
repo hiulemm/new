@@ -7,7 +7,12 @@ int hieu(int a, int b);
 int tich(int a, int b){
 return a*b;
 }
-float thuong(int a, int b);
+float thuong(int a, int b){
+	if(b!=0){
+		return (float)a/b;
+	}
+	return 0;
+}
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
